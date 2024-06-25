@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject private var wifiMonitor: WifiMonitor
+    @State var loading = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if wifiMonitor.isConnected {
+            AudioView()
+        } else {
+            ContentUnavailableView(
+                "No wifi connection",
+                systemImage: "wifi.slash",
+                description: Text("Please check your connection and try again.")
+            )
         }
-        .padding()
     }
 }
 

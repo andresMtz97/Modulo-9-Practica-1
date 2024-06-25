@@ -11,6 +11,9 @@
 		E9119DD92C2A3D1000650171 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9119DD82C2A3D1000650171 /* ContentView.swift */; };
 		E9119DDB2C2A3D1100650171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9119DDA2C2A3D1100650171 /* Assets.xcassets */; };
 		E9119DDE2C2A3D1100650171 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9119DDD2C2A3D1100650171 /* Preview Assets.xcassets */; };
+		E9119DE52C2A3F2100650171 /* AudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9119DE42C2A3F2100650171 /* AudioViewModel.swift */; };
+		E9119DE72C2A48A300650171 /* WifiMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9119DE62C2A48A300650171 /* WifiMonitor.swift */; };
+		E994A5002C2B3FD50037FA84 /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994A4FF2C2B3FD50037FA84 /* AudioView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		E9119DD82C2A3D1000650171 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9119DDA2C2A3D1100650171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9119DDD2C2A3D1100650171 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9119DE42C2A3F2100650171 /* AudioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewModel.swift; sourceTree = "<group>"; };
+		E9119DE62C2A48A300650171 /* WifiMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiMonitor.swift; sourceTree = "<group>"; };
+		E959424E2C2B45F8005409C9 /* Modulo-9-Practica-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Modulo-9-Practica-1-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E994A4FF2C2B3FD50037FA84 /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,12 @@
 		E9119DD52C2A3D1000650171 /* Modulo 9 Practica 1 */ = {
 			isa = PBXGroup;
 			children = (
+				E959424E2C2B45F8005409C9 /* Modulo-9-Practica-1-Info.plist */,
 				E9119DD62C2A3D1000650171 /* Modulo_9_Practica_1App.swift */,
 				E9119DD82C2A3D1000650171 /* ContentView.swift */,
+				E994A4FF2C2B3FD50037FA84 /* AudioView.swift */,
+				E9119DE42C2A3F2100650171 /* AudioViewModel.swift */,
+				E9119DE62C2A48A300650171 /* WifiMonitor.swift */,
 				E9119DDA2C2A3D1100650171 /* Assets.xcassets */,
 				E9119DDC2C2A3D1100650171 /* Preview Content */,
 			);
@@ -138,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9119DD92C2A3D1000650171 /* ContentView.swift in Sources */,
+				E994A5002C2B3FD50037FA84 /* AudioView.swift in Sources */,
+				E9119DE72C2A48A300650171 /* WifiMonitor.swift in Sources */,
+				E9119DE52C2A3F2100650171 /* AudioViewModel.swift in Sources */,
 				E9119DD72C2A3D1000650171 /* Modulo_9_Practica_1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +289,7 @@
 				DEVELOPMENT_TEAM = 567FDZM4P9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Modulo-9-Practica-1-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +319,7 @@
 				DEVELOPMENT_TEAM = 567FDZM4P9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Modulo-9-Practica-1-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

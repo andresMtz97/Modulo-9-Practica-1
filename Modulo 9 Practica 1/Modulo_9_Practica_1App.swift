@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Modulo_9_Practica_1App: App {
+    @StateObject private var wifiMonitor = WifiMonitor()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(wifiMonitor)
         }
     }
 }
